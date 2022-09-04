@@ -1,0 +1,170 @@
+
+html{
+    background-color: #d4d4d4;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.head-style{
+    max-width:1200px ;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color:darkslategrey;
+
+}
+h1{
+    font-weight: normal;
+}
+
+.body-container{
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    padding:10px 20px;
+    font-weight: normal;
+    
+    color:darkslategray;
+    padding-top:25px;
+    padding-bottom:50px;
+    box-sizing: border-box;
+    border-top:3px solid black;
+    
+}
+
+.main-content{
+    width:60%;
+    float:left;
+    
+    
+}
+.sidebar{
+    width:35%;
+    float:left;
+    padding-left: 1px;
+    box-sizing: border-box;
+    color:darkslategray;
+    background-color: lightgrey;
+    padding: 10px;
+    
+}
+
+
+
+.site-nav{
+    margin:0;
+    padding:0 ;
+    padding-top:5px;
+    
+}
+.site-nav ul{
+    margin:0;
+    padding:0; 
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.site-nav li {
+    list-style: none;
+    float:left;
+    margin-right: 10px;
+    
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    padding:10px 20px;
+    border:3px solid rgb(212, 212, 212);
+    color:darkslategray;
+    
+    
+}
+.site-nav a:hover{
+    background-color: rgb(212, 212, 212); ;
+}
+
+
+
+
+
+
+.boxa{
+    padding-left:10px;
+    
+    
+}
+
+.highlight{
+    font-weight:100;
+    padding:1.25%;
+    border-bottom:3px solid black;
+    
+    
+}
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+p2{
+    color:darkslategray;
+}
+footer p1{
+    font-size:105%;
+    color:darkslategray;
+    
+}
+
+
+footer2{
+    text-align:right;
+    float:right;
+    padding-left:10px;
+    padding-right: 20px;
+
+}
+
+footer2 li{
+    list-style: none;
+    float:right;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+footer2 a{
+
+    display: block;
+    text-decoration: none;
+    padding:2%;
+    padding:3px 5px 0px 5px;
+    
+    
+    color:darkslategray;
+}
+
+footer2 a:hover{
+    background-color: rgb(212, 212, 212);
+    border-radius: 2px;
+}

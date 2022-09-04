@@ -1,0 +1,197 @@
+body{
+    background-color: #d4d4d4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.main_content{
+    background-color: white;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    color:darkslategrey;
+
+
+}
+
+.head-style{
+    display:block;
+    background-color: white;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 1%;
+    padding-bottom: 5px;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    box-sizing: border-box;
+    
+    
+    
+
+}
+h1{
+    font-weight: normal;
+   color:darkslategray;
+}
+
+
+.form{
+    width:100%;
+   
+    padding:100px;
+    max-width:500px;
+    background-color:#d4d4d4;
+    color:darkslategray;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left:2%;
+    padding-right:100px;
+    box-sizing: border-box;
+    
+}
+
+
+.site-nav{
+    margin:0;
+    padding:0 ;
+    
+}
+.site-nav ul{
+    margin:0;
+    padding:0; 
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.site-nav li {
+    list-style: none;
+    float:left;
+    margin-right: 10px;
+    
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    padding:10px 20px;
+    border:3px solid rgb(212, 212, 212);
+    color:darkslategray;
+    
+    
+}
+.site-nav a:hover{
+    background-color: rgb(212, 212, 212); ;
+}
+
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+.button:hover {
+    background-color: #acb8ad; /* Green */
+    color: white;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width:40%;
+    
+    padding-bottom:20px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+}
+
+
+.group1:before,
+.group1:after {
+  content: "";
+  display: table;
+}
+
+.group1:after {
+  clear: both;
+}
+
+.group2:before,
+.group2:after {
+  content: "";
+  display: table;
+}
+
+.group2:after {
+  clear: both;
+}
+
+footer{
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 17px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:darkslategrey;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 17px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
